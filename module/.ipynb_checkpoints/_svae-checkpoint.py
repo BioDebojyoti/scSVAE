@@ -563,6 +563,7 @@ class SVAE(BaseModuleClass):
 
         plotdata["theta_rank"] = ss.rankdata(plotdata["theta"].tolist())
         plotdata.sort_values(by=["theta_rank"], inplace = True)
+        plotdata.drop(columns=["theta_rank"], inplace=True)
         
         sns.set(font_scale=0.2)
         sns.set(rc={'figure.figsize':(14,12)})
