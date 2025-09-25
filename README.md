@@ -1,4 +1,4 @@
-# <ins>s</ins>ingle-<ins>c</ins>ell <ins>S</ins>pherical <ins>V</ins>ariational <ins>A</ins>uto <ins>E</ins>ncoder
+# <ins>s</ins>ingle-<ins>c</ins>ell <ins>S</ins>pherical <ins>V</ins>ariational <ins>A</ins>uto <ins>E</ins>ncoder (scSVAE)
 
 This repository contains code and notebooks for applying **scSVAE** (single-cell spherical variational autoencoder) to single-cell RNA-seq data, focusing on **cell cycle gene expression**.
 
